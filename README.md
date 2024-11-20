@@ -13,6 +13,17 @@
 3. Open VS Code
 4. Navigate to File -> Open Folder
 5. Open the folder where you extracted this repository
+6. In the top bar of the editor: Type `>Python: Select Interpreter` and click the option.  Choose the path that leads to your venv (something like `.\venv\Scripts\python.exe`)
 6. There should be a terminal in the bottom section of the editor.  If not, press `ctrl + ~`
 7. In the terminal, type the following python command: `python -m venv venv`
 8. In the terminal, type the following command: `.\venv\Scripts\activate`
+9. Note: There should now be a green `(venv)` prefix to your terminal lines.  If there ever is not one in the future, follow step 8 and ensure the prefix appears.
+10. You can now run any of the Python files in the folder using the following syntax: `python .\<file>.py`
+
+## Account Setup
+
+Please make accounts on the following sites:
+
+1. [Github:](https://github.com/) Do this one first because you can then use it to log into the other sites
+2. [Codewars:](https://www.codewars.com/)
+3. [Advent of Code](https://adventofcode.com/2024/auth/login)
