@@ -5,8 +5,10 @@
 # 1. Integer    - Whole numbers - ex. -2, -1, 0, 1, 2, ...
 # 2. Float      - Decimal numbers - ex. -1.0, -0.5, 0.1, 0.11, 5.32, ...  
 # 3. Boolean    - True/False - ex. True, False
-# 4. String     - A "string" of characters (Examples of characters: 'a', 'b', '7', '!').  Basically a chunk of text. - ex. "hi", "7", "2 Tusked Walrusses"
+# 4. String     - A "string" of characters (Examples of characters: 'a', 'b', '7', '!').  Basically a chunk of text. - ex. "hi", "7", "2 Tusked Walruses"
 # 5. List       - An ordered collection of items.  Shares a lot in common with strings, which can be thought of as ordered collections of characters.
+# 6. Set        - An unordered collection of unique items.
+# 7. Dictionary - An unordered collection of unique keys mapped to corresponding values
 
 # To get the type of a variable or expression, wrap it in the type() function.
 
@@ -28,3 +30,7 @@ x = 5 // 2      # HOWEVER, integer division between 2 ints forces the result to 
 print(type(x))  # prints <class 'int'>
 
 # x = "5" + 7     # This line will error, since Python does not know what you mean by this nonsense.  This is one of the most common issues new programmers face when dealing with strings and ints/floats, not keeping track of the types involved.
+
+# An important extra type is the None type.  This is a special type that is reserved to mean a type that does not represent anything.
+x = None
+print(type(x))  # prints <class 'NoneType'>

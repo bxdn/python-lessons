@@ -19,12 +19,23 @@ print(my_list[3])       # Prints 9
 
 print(my_string_list[0] + ' ' + my_string_list[1]) # prints ?
 
+# To overwrite an item in the list, use the same syntax:
+my_list[1] = 2
+print(my_list[1])       # prints 2
+print(my_list)          # now prints [1, 2, 3, 9]
+
 # Strings can be thought of lists of single characters.  You can use the same syntax as lists for strings.
 my_string = "Hello"
 print(my_string[0])     # prints 'H'
 print(my_string[1])     # prints 'e'
 
-# Python allows negative indexing.  Negative indices go from the back.
+# Note though, that strings are IMMUTABLE.  That means that strings can not be MUTATED, or altered. 
+# Therefore, the following syntax would result in an error:
+# my_string[1] = 'i'
+# Also note that I am not referring to variable reassignment, but changing attributes of the string itself.  The following is still allowed because 'my_string' is now pointing to an entirely new string.
+my_string = "World"
+
+# Python allows negative indexing.  Negative indices count from the back.
 print(my_list[-1])      # prints 9
 print(my_list[-2])      # prints ?
 print(my_string[-1])    # prints ?

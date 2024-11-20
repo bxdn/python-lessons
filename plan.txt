@@ -2,10 +2,18 @@ hello_world
 functions
 data_types
 bools
-if
-lists
-for
-string_methods
 casting
 input
+Game Pt 1
+if
+Game Pt 2
+lists
+loops
+Game Pt 3
 import
+Game Pt 4
+sets/dicts
+classes (For context, not for puzzle problems)
+
+Afterwards, lots of Codewars
+Maybe Advent of Code

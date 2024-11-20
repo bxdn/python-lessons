@@ -13,7 +13,7 @@ def make_sparkly(txt):      # defines a function called 'make_sparkly' that has 
 
 # To CALL a function with ARGUMENTS, use the name like a variable, but insert the ARGUMENTS into the parentheses following this pattern (arg1, arg2, arg3)
 make_sparkly('hi')          # prints *hi*
-make_sparkly('omg uwu')     # prints *omg uwu*
+make_sparkly('sparkles')     # prints *sparkles*
 
 # To define a function that has an unknown at the time of writing (called a 'parameter' or 'argument'), use the following syntax
 def add_print(num1, num2):  # defines a function called 'add_print' that has 2 ARGUMENTs called 'num1' and 'num2'.  Prints the sum of the arguments
