@@ -2,6 +2,10 @@
 my_list = [1, 5, 3, 9]  # creates a list called 'my_list' with the numbers 1, 5, 3, and 9, in that order
 my_string_list = ["Hello", "World"] # creates a list called 'my_string_list' with the strings "Hello" and "World"
 
+# To get the length of a list, use the len() function
+print(len(my_list))     # prints 4
+print(len(my_string_list)) # prints 2
+
 # To add an item to a list, use the "append()" method
 my_string_list.append("!")
 print(my_string_list)   # prints ["Hello", "World", "!"]
@@ -24,10 +28,13 @@ my_list[1] = 2
 print(my_list[1])       # prints 2
 print(my_list)          # now prints [1, 2, 3, 9]
 
-# Strings can be thought of lists of single characters.  You can use the same syntax as lists for strings.
+# Strings can SOMETIMES be thought of lists of single characters.  You can SOMETIMES use the same syntax as lists for strings.
 my_string = "Hello"
 print(my_string[0])     # prints 'H'
 print(my_string[1])     # prints 'e'
+
+# The len() function also works with strings.
+print(len(my_string))   # prints ?
 
 # Note though, that strings are IMMUTABLE.  That means that strings can not be MUTATED, or altered. 
 # Therefore, the following syntax would result in an error:
