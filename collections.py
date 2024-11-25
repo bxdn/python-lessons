@@ -6,8 +6,10 @@ my_string_list = ["Hello", "World"] # creates a list called 'my_string_list' wit
 print(len(my_list))     # prints 4
 print(len(my_string_list)) # prints 2
 
-# To add an item to a list, use the "append()" method
+# To add an item to a list, use the "append()" method (A method is just a function associated to a specific data type)
 my_string_list.append("!")
+# Note, there was no return type from append() or reassignment of the variable.  This is because the list itself was MUTATED, or changed.
+# This is a subtle but important distinction: if ever some other variable was tied to this list, it also would change, because the underlying list changed.
 print(my_string_list)   # prints ["Hello", "World", "!"]
 
 # To remove the last item from a list, use the pop() method, which also returns that last element
@@ -25,6 +27,7 @@ print(my_string_list[0] + ' ' + my_string_list[1]) # prints ?
 
 # To overwrite an item in the list, use the same syntax:
 my_list[1] = 2
+# Note this also mutates the list.
 print(my_list[1])       # prints 2
 print(my_list)          # now prints [1, 2, 3, 9]
 
@@ -36,7 +39,7 @@ print(my_string[1])     # prints 'e'
 # The len() function also works with strings.
 print(len(my_string))   # prints ?
 
-# Note though, that strings are IMMUTABLE.  That means that strings can not be MUTATED, or altered. 
+# Note though, that strings are IMMUTABLE.  That means that strings can not be mutated. 
 # Therefore, the following syntax would result in an error:
 # my_string[1] = 'i'
 # Also note that I am not referring to variable reassignment, but changing attributes of the string itself.  The following is still allowed because 'my_string' is now pointing to an entirely new string.
