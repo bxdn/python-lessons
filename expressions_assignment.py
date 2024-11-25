@@ -28,4 +28,4 @@ x = 3               # x is now bound to the value 3 (int)
 y = 3.8 + 4.2       # x is now bound to the value 8.0 (float)
 z = x + y           # Since x is bound to 3, and y is bound to 8.0, z is now bound to 11.0 (float)
 x = x + 1           # Since the right side is evaluated first, x + 1 evaluates to 4 (int), then x is bound to that value.
-z                   # Since z was last calculated in line 27, it is still bound to 11.0 (float)
+z                   # Evaluates to ?
