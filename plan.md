@@ -15,7 +15,7 @@
 1. Game Pt 4
 1. for
 1. custom functions
-1. lists
+1. sequences
 1. sets/dicts
 1. classes (For context, not for puzzle problems)
 

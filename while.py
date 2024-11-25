@@ -17,4 +17,10 @@ if x > 2:
 x = 5
 while x > 2:            # while this condition is true, execute the intented block
     print(x)            # prints 5, then 4, then 3
-    x = x - 1           # subtract 1 from x and set x to that result   
+    x = x - 1           # subtract 1 from x and set x to that result
+
+# This block will print all numbers up to 10
+x = 1
+while x <= 10:
+    print(x)
+    x = x + 1
