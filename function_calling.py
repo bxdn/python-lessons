@@ -25,3 +25,9 @@ print(max(4, 5, 6))     # prints 6
 print(max(1,2,10) - max(5,2,4)) # prints ?
 print(abs(-5) + min(3, -5, -1, 0)) # prints ?
 
+# The min() function will do the same, but for the minimum.
+print(min(4,3))         # prints 3
+
+# The len() function will return the length of a string
+print(len("Hello"))     # prints 5
+
