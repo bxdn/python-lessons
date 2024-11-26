@@ -5,6 +5,8 @@
     - False
     - 6.3
     - 'Hello'
+    - '-3'
+    - 'True'
 1. Resolve the expressions and identifying their type:
     - 1 + 3
     - 1 + 4.2
