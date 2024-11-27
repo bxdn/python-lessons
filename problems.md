@@ -14,13 +14,13 @@
     - 4 // 2
     - 4 % 2
     - "Hello " + "World"
-    - Resolve and identify the values of x, y, and z in the following line sequence:
+    - Resolve and identify the values of x, y, and z at the end of the following line sequence:
         - z = 5
         - y = 4
         - z = z - y
         - y = z
         - x = y + z
-    - Resolve and identify the values and types of x, y, and z in the following line sequence:
+    - Resolve and identify the values and types of x, y, and z at the end of the following line sequence:
         - x = 4.5
         - y = x + 1
         - y = y * 2
