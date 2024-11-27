@@ -47,7 +47,7 @@
 1. Explain what is printed at the last line of each code sequence:
     1.  - first = input('enter your first name') # User inputs 'Sean'
         - last = input('enter your last name') # User inputs 'Smolinski'
-        - print(first + last)\
+        - print(first + last)
     1.  - num1 = input('enter a number') # User inputs 3
         - num2 = input('enter another number) # User inputs 2
         - print(num1 + num2)
@@ -55,10 +55,10 @@
         - x = 3
         - print(x == num)
 1.  Write a program that asks the user for their name.  If they enter your first or full name, print "You are awesome!"  If they don't, reject them angrily.
-1.  Write a program that asks the user for a number.\
-    - If it is divisible by 3, print "fizz".\
-    - If it is divisible by 5, print "buzz".\
-    - If it is divisible by both, print "fizzbuzz'.\
+1.  Write a program that asks the user for a number.
+    - If it is divisible by 3, print "fizz".
+    - If it is divisible by 5, print "buzz".
+    - If it is divisible by both, print "fizzbuzz'.
     - Otherwise, print their number back to them.
 1. Expand the program asking the user for their name.  Leave the program unchanged if they enter your first or full name, otherwise, in addition to rejecting them, prompt them again until they answer correctly.
 1. Expand the program asking the user for a number to execute for every number from 1 to 100.
