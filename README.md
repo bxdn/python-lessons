@@ -16,8 +16,8 @@
 6. There should be a terminal in the bottom section of the editor.  If not, press `ctrl + ~`
 7. In the terminal, type the following python command: `python -m venv venv`
 8. In the terminal, type the following command: `.\venv\Scripts\activate`
-6. In the top bar of the editor: Type `>Python: Select Interpreter` and click the option.  Choose the path that leads to your venv (something like `.\venv\Scripts\python.exe`)
 9. Note: There should now be a green `(venv)` prefix to your terminal lines.  If there ever is not one in the future, follow step 8 and ensure the prefix appears.
+6. In the top bar of the editor: Type `>Python: Select Interpreter` and click the option.  Choose the path that leads to your venv (something like `.\venv\Scripts\python.exe`)
 10. You can now run any of the Python files in the folder using the following syntax: `python .\<file name>.py`
 
 ## Account Setup
