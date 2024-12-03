@@ -10,7 +10,7 @@ False               # Evaluates to False (bool)
 3 + 4.2             # Evaluates to 7.2 (float)
 3 + 4.0             # Evaluates to 7.0 (float)
 6 - 4               # Evaluates to 2 (int)
-2 * 6               # Evaluates to 12
+2 * 6               # Evaluates to 12 (int)
 6 / 3               # Evaluates to 2.0 (float)
 3 ** 2              # Evaluates to 9 (int)
 6 // 5              # Evaluates to 1 (int)

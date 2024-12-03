@@ -23,7 +23,7 @@ print(abs(-5) + abs(2 + 2)) # prints 9
 # The max() function will return the maximum value of all values passed to it as input.
 print(max(4, 5, 6))     # prints 6
 print(max(1,2,10) - max(5,2,4)) # prints ?
-print(abs(-5) + min(3, -5, -1, 0)) # prints ?
+print(abs(-5) + max(3, -5, -1, 0)) # prints ?
 
 # The min() function will do the same, but for the minimum.
 print(min(4,3))         # prints 3

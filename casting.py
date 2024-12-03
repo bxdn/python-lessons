@@ -8,7 +8,7 @@ x = 5           # initializes x and y to the numbers 5 and 10
 y = 10
 x_str = str(x)  # converts x and y into strings, the text "5" and "10"
 y_str = str(y)
-print(y + x)    # prints ?
+print(y_str + x_str)    # prints ?
 
 # To convert a decimal into an integer (ROUNDED DOWN), use the int function as well:
 x = 1.54        # initializes x as the number 1.54
