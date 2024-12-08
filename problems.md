@@ -76,4 +76,7 @@
         - x.append(4)
         - y.append(4)
         - print(z)
+    1.  - print('hello'[1::2])
+    1.  - print('hello'[-2:1:-2])
+    1.  - print('hello'[:-1:2])
 1. Change the fizz buzz program to use a for loop instead of while

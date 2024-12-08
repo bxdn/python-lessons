@@ -70,3 +70,17 @@ my_list.pop()
 print(my_list)          # now prints [1, 2, 3]
 print(my_alias)         # now prints [1, 2, 3]
 print(my_copy)          # still prints [1, 2, 3, 10, 0]
+
+# The [:] syntax supports much more than just a full copy.  This is called a SLICE.
+# The full syntax follows this schema [start:end:step]
+# start - The first index to take - default 0
+# end - The index AFTER the last index to take - default len(whatever_you're_slicing)
+# step - How much to move forward: 1 is every item, 2 is every other item... - default 1
+# You can use the defaults by omitting the numbers in the place they normally go
+# So, my_str[:] is equivalent to my_str[0:len(my_str):1], which is a complete copy.
+my_str = 'hello'
+print(my_str[1:3])  # prints 'el'
+print(my_str[2:])   # prints 'llo'
+print(my_str[:4])   # prints 'hell'
+print(my_str[::2])  # prints 'hlo'
+print(my_str[::-1]) # prints 'olleh'

@@ -18,3 +18,7 @@ for item in my_tuple:
 for i in range(5): # i will equal 0, 1, 2, 3, 4
     print('This will print 5 times!  Time #' + str(i)) # prints this message 5 times, with the time # increasing by 1 each iteration.
 
+# range() supports arguments formatted much like the slicing [::] syntax: 
+# If you want every other value going backward from 10 to 2 (2 not being included), you would use range(10, 2, -2), just as in slicing from index 10 to 2 every other item you would use [10:2:-2]
+for i in range(10, 2, -2):
+    print(i)
