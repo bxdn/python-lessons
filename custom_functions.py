@@ -25,8 +25,8 @@ make_sparkly('sparkles')    # prints "*sparkles*"
 def add_print(num1, num2):        # defines a function called 'add' that has 2 ARGUMENTs called 'num1' and 'num2'.  Adds the 2 arguments and assigns them to x
     print(num1 + num2)
 
-print(add_print(1, 3))                 # prints 4
-print(add_print("Whats ", "up?"))      # prints "What's up?"
+add_print(1, 3)                # prints 4
+add_print("Whats ", "up?")     # prints "What's up?"
 
 # To define a function that doesn't just *DO* something but *ANSWERS* something, use the 'return' keyword
 def plus_5(num):            # defines a function called 'plus_5' that has 1 ARGUMENT called 'num' and returns 5 plus the number provided

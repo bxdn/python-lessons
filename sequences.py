@@ -56,20 +56,13 @@ my_list[-1] = 10
 print(my_list)          # now prints [1 ,2, 3, 10]
 print(my_alias)         # now ALSO prints [1 ,2, 3, 10]
 
-def append_zero(lst):
-    lst.append(0)
-
-append_zero(my_list)
-print(my_list)          # now prints [1 ,2, 3, 10, 0]
-print(my_alias)         # now ALSO prints [1 ,2, 3, 10, 0]
-
 # To get a copy of a list, use [:] syntax
 my_copy = my_list[:]
 my_list.pop()
 my_list.pop()
-print(my_list)          # now prints [1, 2, 3]
-print(my_alias)         # now prints [1, 2, 3]
-print(my_copy)          # still prints [1, 2, 3, 10, 0]
+print(my_list)          # now prints [1, 2]
+print(my_alias)         # now prints [1, 2]
+print(my_copy)          # still prints [1, 2, 3, 10]
 
 # The [:] syntax supports much more than just a full copy.  This is called a SLICE.
 # The full syntax follows this schema [start:end:step]
