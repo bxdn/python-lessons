@@ -32,7 +32,7 @@ def find_summing_indices(my_list, goal):
     for i, first in enumerate(my_list):
         for j, second in enumerate(my_list):
             if first + second == goal:
-                return (i, j)
+                return i, j
     return None
 
 # An algorithm is O(n * m) when there is a nested loop of different lists, one of length n and one of length m, because there are at most a * m * n instructions.
@@ -80,7 +80,7 @@ def remove_instance_of_first_duplicated_value(my_list):
 # .pop() (no argument provided) - O(1)
 # .pop(0) - O(n)
 # + - O(n)
-# .extemd() - O(m) - time complexity is based on length of argument
+# .extend() - O(m) - time complexity is based on length of argument
 # [:::] - O(n) - time complexity is based on the number of elements sliced
 # len() - O(1)
 # in - O(n)
